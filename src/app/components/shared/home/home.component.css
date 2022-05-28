@@ -1,0 +1,59 @@
+.container {
+    margin-bottom: 40px;
+}
+
+.carousel {
+    width:600px;
+    height:400px;
+}
+
+.carousel img {
+    margin: auto;
+}
+
+.mask-custom {
+    backdrop-filter: blur(5px);
+    background-color: rgba(178, 60, 253, 0.2);
+}
+.card {
+    background-color: transparent !important;
+}
+
+.profile-card {
+    width: 18rem;
+    margin: 0 auto;
+}
+
+#contact-button a {
+    font-size: 20px;
+}
+
+.coral-card {
+    max-width: 400px;
+  }
+  
+  .coral-header-image {
+    background-size: cover;
+  }
+
+#frase1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+.card {
+    
+}
+
+#videos {
+    min-width: 300px;
+}
+.card{
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+video {
+    width: 300px;
+    height: 300px;
+}

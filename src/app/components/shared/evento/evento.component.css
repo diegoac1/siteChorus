@@ -1,0 +1,16 @@
+.evento-card {
+    max-width: 400px;
+  }
+  
+  .evento-header-image {
+    background-size: cover;
+  }
+
+  .example-card {
+    max-width: 400px;
+    margin-bottom: 8px;
+  }
+
+  .mat-card-header {
+      display: block;
+  }

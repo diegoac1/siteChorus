@@ -1,0 +1,20 @@
+/* nav { 
+    position: fixed;
+    top: 0;
+} */
+#nav {
+    /* top: 50%; */
+    background-color: black;
+
+}
+
+nav a{
+    
+    font-size: 20px;
+    color: #fff;
+    margin-top: 3%;
+}
+
+#navButton {
+    margin-top: 2%;
+}

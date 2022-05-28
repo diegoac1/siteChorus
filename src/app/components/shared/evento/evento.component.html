@@ -1,0 +1,75 @@
+
+
+<div class="container">
+    <!-- <div class="row"> -->
+    <!-- <div *ngFor="let evento of eventos$ | async;" class="col-md-6 col-xl-4 text-center">
+        <mat-card class="example-card">
+            <mat-card-title-group>
+              <mat-card-title>{{ evento.titulo }}</mat-card-title>
+              <mat-card-subtitle>{{ evento.cidade }}</mat-card-subtitle>
+              <img mat-card-xl-image src="{{ evento.imagem_path }}" alt="">
+            </mat-card-title-group>
+            <mat-card-content>
+              {{ evento.descricao }}
+            </mat-card-content>
+          </mat-card>
+    </div> -->
+    <div *ngFor="let evento of eventos$ | async;" class="col-md-6 col-xl-4 text-center">
+        <mat-card class="evento-card">
+            <mat-card-header>
+                
+                <mat-card-title>{{ evento.titulo }}</mat-card-title>
+                <mat-card-subtitle>{{ evento.cidade }}</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src="{{ evento.imagem_path }}" alt="">
+            <mat-card-content>
+             
+                {{ evento.descricao }}
+             
+            </mat-card-content>
+            <mat-card-actions>
+            <!-- <button mat-button>LIKE</button>
+            <button mat-button>SHARE</button> -->
+            </mat-card-actions>
+        </mat-card>
+            <!-- <div class="card-footer bg-inverse">
+                <div class="row text-center">
+                    <div class="col-sm-4">
+                        <h4>134</h4>
+                        <span>Shots</span>
+                    </div>
+                    <div class="col-sm-4">
+                        <h4>13,227</h4>
+                        <span>Shots</span>
+                    </div>
+                    <div class="col-sm-4">
+                        <h4>488</h4>
+                        <span>Shots</span>
+                    </div>
+                </div>
+            </div> -->
+    </div>
+    <!-- <div class="col-md-6 col-xl-4">
+        <div class="card borderless-card border-0">
+            <div class="profile-card" style="width: 18rem">
+                <img class="img-fluid" src="..." alt="">
+                <div class="card-block">
+                    <h3>Evento 2</h3>
+                    <p>Divinópolis</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-xl-4">
+        <div class="card borderless-card border-0">
+            <div class="profile-card" style="width: 18rem">
+                <img class="img-fluid" src="..." alt="">
+                <div class="card-block">
+                    <h3>Evento 3</h3>
+                    <p>Belo Horizonte</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+<!-- </div> -->
+</div>
